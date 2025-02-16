@@ -1,57 +1,71 @@
-# Friday 3.0 - Personal AI Assistant
+# **Project Description: Friday - AI Voice Assistant**
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Libraries Used](#libraries-used)
-4. [How It Works](#how-it-works)
-   - [Voice Commands](#1-voice-commands)
-   - [Task Automation](#2-task-automation)
-   - [Speech Output](#3-speech-output)
-## Overview
+## **Overview**
+Friday is an AI-powered voice assistant designed to automate tasks, control applications, and assist users with various daily activities through voice commands. The assistant leverages speech recognition, text-to-speech synthesis, and automation libraries to provide an interactive and hands-free experience.
 
-**Friday 3.0** is a voice-controlled AI personal assistant that allows you to automate various tasks on your computer. From opening applications to playing music on YouTube, performing Google searches, controlling system settings, and more, Friday is designed to make your computer experience more convenient and efficient.
+---
 
-## Features
+## **Key Features**
 
-- **Voice Interaction**: Control your system using natural voice commands.
-- **Date and Time Queries**: Ask Friday for the current time, date, and day of the week.
-- **YouTube Search and Play**: Search and play music directly from YouTube.
-- **Google Search**: Perform web searches and read the top results.
-- **Application Control**: Open/close applications like Notepad, Paint, and browser tabs.
-- **System Control**: Manage system functions like shutdown, restart, and locking the system.
-- **Webcam Access**: Activate the camera and display the feed.
-- **Screenshots**: Take screenshots of your screen.
-- **IP Address**: Get your system's public IP address.
-- **Volume Control**: Adjust the system's volume through voice commands.
-- **Note Taking**: Open Notepad for quick note-taking.
-- **Weather Information**: Get current weather details by searching on Google.
+### **1. Voice Interaction**
+- Uses `pyttsx3` for text-to-speech output.
+- Uses `speech_recognition` for processing user commands.
 
-## Libraries Used
+### **2. System Operations**
+- Provides greetings based on the time of day.
+- Controls system functionalities such as:
+  - **Shutdown, Restart, Lock, Hibernate** the system.
+  - **Open/Close applications** like Notepad, Paint, Command Prompt, and Calculator.
+  - **Adjust volume** (increase, decrease).
+  - **Take notes** in Notepad and Sticky Notes.
 
-To implement these features, the following Python libraries are used:
+### **3. Web Automation**
+- Performs Google searches and summarizes results using `BeautifulSoup`.
+- Searches and plays videos on YouTube using `pywhatkit`.
+- Opens and controls browser windows (`Google Chrome`, `Microsoft Edge`).
 
-- `pyttsx3` - For text-to-speech conversion.
-- `speech_recognition` - For converting voice commands into text.
-- `datetime` - For handling time, date, and day functions.
-- `webbrowser` - For opening web pages in the default browser.
-- `requests` - For making HTTP requests to the web.
-- `BeautifulSoup` - For scraping Google search results.
-- `pywhatkit` - For playing YouTube videos via commands.
-- `os` - To interact with system functions.
-- `cv2` (OpenCV) - For webcam handling.
-- `pyautogui` - For automating system tasks like screenshots, volume control, and more.
-- `time` - For managing timing and delays.
+### **4. Media Control**
+- Plays music from YouTube.
+- Opens a local music directory and plays random songs.
+- Takes screenshots and saves them with a user-defined name.
 
-## How It Works
+### **5. Camera & Image Processing**
+- Opens the system's webcam using `OpenCV` (`cv2`).
+- Captures live video and displays the feed in a separate window.
 
-### 1. Voice Commands
-Friday uses the `speech_recognition` library to listen to voice inputs via the microphone. After recognizing the speech, it converts the command to text and executes the relevant task.
+### **6. Automation & Navigation**
+- Uses `pyautogui` to perform keyboard and mouse automation:
+  - Open/Close applications.
+  - Minimize/Maximize windows.
+  - Handle browser tabs (open, close, switch).
+- Retrieves the **system’s IP address** using `requests`.
 
-### 2. Task Automation
-Friday can automate tasks like opening applications, performing web searches, and controlling system settings, using Python libraries like `os`, `webbrowser`, `pyautogui`, and others.
+### **7. Chrome Automation**
+- Opens Chrome and automates Google and YouTube searches.
+- Creates and manages multiple tabs and windows.
 
-### 3. Speech Output
-Friday responds with spoken feedback using `pyttsx3` for text-to-speech conversion, informing the user of the status of their request.
+---
 
+## **Technology Stack**
+- **Programming Language:** Python
+- **Libraries Used:**
+  - `pyttsx3` (Text-to-Speech)
+  - `speech_recognition` (Voice Commands)
+  - `pyautogui` (GUI Automation)
+  - `webbrowser` (Opening Web Pages)
+  - `BeautifulSoup` (Web Scraping)
+  - `requests` (Fetching IP Addresses)
+  - `cv2` (OpenCV for Camera Control)
+  - `os` and `time` (System Operations)
+  - `pywhatkit` (YouTube and Google Searches)
 
+---
+
+## **Use Case Scenarios**
+- Hands-free interaction with the computer.
+- Automating repetitive tasks (searching, opening/closing apps).
+- Controlling music and video playback.
+- Quick system actions like shutdown, restart, or locking the PC.
+- Enhancing productivity through voice-based note-taking.
+
+---
