@@ -1,71 +1,118 @@
-# **Project Description: Friday - AI Voice Assistant**
+Friday: AI-Powered Coding Assistant
 
-## **Overview**
-Friday is an AI-powered voice assistant designed to automate tasks, control applications, and assist users with various daily activities through voice commands. The assistant leverages speech recognition, text-to-speech synthesis, and automation libraries to provide an interactive and hands-free experience.
+Project Description
 
----
+Friday is an AI-powered voice assistant tailored specifically for coders. It assists with coding-related challenges such as:
 
-## **Key Features**
+Finding syntax for basic pages or applications.
 
-### **1. Voice Interaction**
-- Uses `pyttsx3` for text-to-speech output.
-- Uses `speech_recognition` for processing user commands.
+Providing guidance on folder structure for projects.
 
-### **2. System Operations**
-- Provides greetings based on the time of day.
-- Controls system functionalities such as:
-  - **Shutdown, Restart, Lock, Hibernate** the system.
-  - **Open/Close applications** like Notepad, Paint, Command Prompt, and Calculator.
-  - **Adjust volume** (increase, decrease).
-  - **Take notes** in Notepad and Sticky Notes.
+Allowing users to copy code snippets from lectures for easy implementation.
 
-### **3. Web Automation**
-- Performs Google searches and summarizes results using `BeautifulSoup`.
-- Searches and plays videos on YouTube using `pywhatkit`.
-- Opens and controls browser windows (`Google Chrome`, `Microsoft Edge`).
+Automating coding tasks to enhance productivity.
 
-### **4. Media Control**
-- Plays music from YouTube.
-- Opens a local music directory and plays random songs.
-- Takes screenshots and saves them with a user-defined name.
+Overview
 
-### **5. Camera & Image Processing**
-- Opens the system's webcam using `OpenCV` (`cv2`).
-- Captures live video and displays the feed in a separate window.
+Friday leverages speech recognition, text-to-speech synthesis, and automation libraries to offer an interactive and hands-free coding assistant. It aims to streamline development by minimizing repetitive tasks and providing quick access to essential coding resources.
 
-### **6. Automation & Navigation**
-- Uses `pyautogui` to perform keyboard and mouse automation:
-  - Open/Close applications.
-  - Minimize/Maximize windows.
-  - Handle browser tabs (open, close, switch).
-- Retrieves the **system’s IP address** using `requests`.
+Key Features
 
-### **7. Chrome Automation**
-- Opens Chrome and automates Google and YouTube searches.
-- Creates and manages multiple tabs and windows.
+Voice Interaction
 
----
+Uses pyttsx3 for text-to-speech output.
 
-## **Technology Stack**
-- **Programming Language:** Python
-- **Libraries Used:**
-  - `pyttsx3` (Text-to-Speech)
-  - `speech_recognition` (Voice Commands)
-  - `pyautogui` (GUI Automation)
-  - `webbrowser` (Opening Web Pages)
-  - `BeautifulSoup` (Web Scraping)
-  - `requests` (Fetching IP Addresses)
-  - `cv2` (OpenCV for Camera Control)
-  - `os` and `time` (System Operations)
-  - `pywhatkit` (YouTube and Google Searches)
+Uses speech_recognition for processing user commands.
 
----
+Coding Assistance
 
-## **Use Case Scenarios**
-- Hands-free interaction with the computer.
-- Automating repetitive tasks (searching, opening/closing apps).
-- Controlling music and video playback.
-- Quick system actions like shutdown, restart, or locking the PC.
-- Enhancing productivity through voice-based note-taking.
+Provides syntax for commonly used programming constructs.
 
----
+Suggests folder structures for different projects (web, app, machine learning, etc.).
+
+Enables copying code from lectures for direct implementation.
+
+System Operations
+
+Provides greetings based on the time of day.
+
+Controls system functionalities such as:
+
+Shutdown, Restart, Lock, Hibernate the system.
+
+Open/Close coding applications like VS Code, Terminal, and Notepad++.
+
+Adjust volume (increase, decrease).
+
+Take notes in Notepad and Sticky Notes.
+
+Web Automation for Coding Resources
+
+Searches for code snippets and syntax references on Stack Overflow and documentation sites.
+
+Summarizes search results using BeautifulSoup.
+
+Opens and controls browser tabs for coding resources.
+
+Media Control
+
+Plays coding tutorial videos from YouTube.
+
+Opens saved local tutorials.
+
+Takes screenshots and saves them with a user-defined name.
+
+Automation & Navigation
+
+Uses pyautogui for:
+
+Navigating between applications.
+
+Automating typing for repetitive code.
+
+Handling browser tabs (open, close, switch).
+
+Retrieves system’s IP address using requests.
+
+Chrome Automation
+
+Opens Chrome and automates searches for coding-related topics.
+
+Creates and manages multiple tabs and windows.
+
+Technology Stack
+
+Programming Language: Python
+Libraries Used:
+
+pyttsx3 (Text-to-Speech)
+
+speech_recognition (Voice Commands)
+
+pyautogui (GUI Automation)
+
+webbrowser (Opening Web Pages)
+
+BeautifulSoup (Web Scraping)
+
+requests (Fetching IP Addresses)
+
+cv2 (OpenCV for Camera Control)
+
+os and time (System Operations)
+
+pywhatkit (YouTube and Google Searches)
+
+'selenium'
+
+Use Case Scenarios
+
+Hands-free coding assistance for faster development.
+
+Quick access to syntax references and code snippets.
+
+Automating repetitive coding tasks.
+
+Controlling IDEs and terminals via voice commands.
+
+Enhancing productivity by reducing manual search efforts.
