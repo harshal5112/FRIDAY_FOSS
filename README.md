@@ -105,7 +105,7 @@ pywhatkit (YouTube and Google Searches)
 
 'selenium'
 
-Use Case Scenarios
+Use Case Scenarios.
 
 Hands-free coding assistance for faster development.
 
