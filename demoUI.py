@@ -6,7 +6,7 @@ from tkinter import Entry, Button
 root = tk.Tk()
 root.title("FRIADAY 2.O")
 root.attributes('-fullscreen', True)  # Fullscreen mode
-root.configure(bg="#181D28")  # Background color
+root.configure(bg="#181D28")  
 
 # Configure grid for responsiveness
 root.grid_columnconfigure(0, weight=1)
