@@ -374,7 +374,6 @@
                 "README.md"
             ]
         },
-        
         {
             "structure": "cpp_project/",
             "details": [
@@ -388,7 +387,8 @@
                 "CMakeLists.txt",
                 "README.md"
             ]
-        },{
+        },
+        {
             "mobile_app": [
                 {
                     "structure": "mobile_app/",
