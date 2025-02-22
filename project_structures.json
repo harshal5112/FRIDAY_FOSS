@@ -1,19 +1,392 @@
 {
     "frontend": [
-        "frontend/\n├── public/\n│   ├── index.html\n│   └── favicon.ico\n├── src/\n│   ├── components/\n│   │   └── MessageList.js\n│   ├── App.js\n│   ├── index.js\n│   └── styles.css\n└── package.json",
-        "frontend/\n├── assets/\n│   ├── images/\n│   ├── styles/\n├── components/\n│   ├── Header.js\n│   ├── Footer.js\n├── pages/\n│   ├── Home.js\n│   ├── About.js\n├── App.js\n├── index.js\n└── package.json"
+        {
+            "structure": "frontend/",
+            "details": [
+                "public/",
+                "├── index.html",
+                "├── favicon.ico",
+                "src/",
+                "├── components/",
+                "│   └── MessageList.js",
+                "├── App.js",
+                "├── index.js",
+                "├── styles.css",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "frontend/",
+            "details": [
+                "assets/",
+                "├── images/",
+                "├── styles/",
+                "components/",
+                "├── Header.js",
+                "├── Footer.js",
+                "pages/",
+                "├── Home.js",
+                "├── About.js",
+                "App.js",
+                "index.js",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "frontend/",
+            "details": [
+                "public/",
+                "├── index.html",
+                "├── manifest.json",
+                "src/",
+                "├── api/",
+                "│   └── api.js",
+                "├── hooks/",
+                "│   └── useFetch.js",
+                "├── context/",
+                "│   └── AuthContext.js",
+                "├── App.js",
+                "├── index.js",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "frontend/",
+            "details": [
+                "public/",
+                "├── index.html",
+                "src/",
+                "├── layouts/",
+                "│   └── MainLayout.js",
+                "├── utils/",
+                "│   └── helpers.js",
+                "├── redux/",
+                "│   ├── slices/",
+                "│   │   └── userSlice.js",
+                "│   └── store.js",
+                "├── App.js",
+                "├── index.js",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "frontend/",
+            "details": [
+                "public/",
+                "├── index.html",
+                "src/",
+                "├── services/",
+                "│   └── authService.js",
+                "├── constants/",
+                "│   └── routes.js",
+                "├── hooks/",
+                "│   └── useAuth.js",
+                "├── App.js",
+                "├── index.js",
+                "package.json"
+            ]
+        }
     ],
     "backend": [
-        "backend/\n├── controllers/\n│   ├── userController.js\n├── models/\n│   ├── userModel.js\n├── routes/\n│   ├── userRoutes.js\n├── config/\n│   ├── database.js\n├── server.js\n└── package.json",
-        "backend/\n├── src/\n│   ├── app.py\n│   ├── routes/\n│   │   ├── auth.py\n│   │   ├── users.py\n│   ├── models/\n│   │   ├── user.py\n├── config/\n│   ├── settings.py\n├── main.py\n└── requirements.txt"
+        {
+            "structure": "backend/",
+            "details": [
+                "controllers/",
+                "├── userController.js",
+                "models/",
+                "├── userModel.js",
+                "routes/",
+                "├── userRoutes.js",
+                "config/",
+                "├── database.js",
+                "server.js",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "backend/",
+            "details": [
+                "src/",
+                "├── app.py",
+                "├── routes/",
+                "│   ├── auth.py",
+                "│   ├── users.py",
+                "├── models/",
+                "│   ├── user.py",
+                "config/",
+                "├── settings.py",
+                "main.py",
+                "requirements.txt"
+            ]
+        },
+        {
+            "structure": "backend/",
+            "details": [
+                "app/",
+                "├── controllers/",
+                "│   └── productController.js",
+                "├── models/",
+                "│   └── productModel.js",
+                "├── routes/",
+                "│   └── productRoutes.js",
+                "config/",
+                "├── db.js",
+                "server.js",
+                "package.json"
+            ]
+        },
+        {
+            "structure": "backend/",
+            "details": [
+                "src/",
+                "├── main.go",
+                "├── handlers/",
+                "│   └── userHandler.go",
+                "├── models/",
+                "│   └── user.go",
+                "├── routes/",
+                "│   └── routes.go",
+                "go.mod",
+                "go.sum"
+            ]
+        },
+        {
+            "structure": "backend/",
+            "details": [
+                "app/",
+                "├── middleware/",
+                "│   └── authMiddleware.js",
+                "├── utils/",
+                "│   └── logger.js",
+                "├── controllers/",
+                "│   └── orderController.js",
+                "├── models/",
+                "│   └── orderModel.js",
+                "server.js",
+                "package.json"
+            ]
+        }
     ],
     "data_science": [
-        "data_science/\n├── notebooks/\n│   ├── analysis.ipynb\n│   ├── visualization.ipynb\n├── datasets/\n│   ├── raw/\n│   ├── processed/\n├── scripts/\n│   ├── preprocessing.py\n│   ├── train_model.py\n├── models/\n│   ├── model.pkl\n└── README.md"
+        {
+            "structure": "data_science/",
+            "details": [
+                "notebooks/",
+                "├── analysis.ipynb",
+                "├── visualization.ipynb",
+                "datasets/",
+                "├── raw/",
+                "├── processed/",
+                "scripts/",
+                "├── preprocessing.py",
+                "├── train_model.py",
+                "models/",
+                "├── model.pkl",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "data_science/",
+            "details": [
+                "experiments/",
+                "├── experiment_1/",
+                "│   ├── config.yaml",
+                "│   ├── results.csv",
+                "data/",
+                "├── raw/",
+                "├── cleaned/",
+                "notebooks/",
+                "├── EDA.ipynb",
+                "scripts/",
+                "├── feature_engineering.py",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "data_science/",
+            "details": [
+                "data/",
+                "├── raw/",
+                "├── processed/",
+                "models/",
+                "├── model_v1.pkl",
+                "├── model_v2.pkl",
+                "notebooks/",
+                "├── model_training.ipynb",
+                "scripts/",
+                "├── evaluate_model.py",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "data_science/",
+            "details": [
+                "data/",
+                "├── external/",
+                "├── interim/",
+                "notebooks/",
+                "├── data_cleaning.ipynb",
+                "scripts/",
+                "├── data_pipeline.py",
+                "models/",
+                "├── final_model.pkl",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "data_science/",
+            "details": [
+                "data/",
+                "├── raw/",
+                "├── processed/",
+                "notebooks/",
+                "├── feature_selection.ipynb",
+                "scripts/",
+                "├── train.py",
+                "models/",
+                "├── best_model.pkl",
+                "README.md"
+            ]
+        }
     ],
     "c_project": [
-        "c_project/\n├── src/\n│   ├── main.c\n│   ├── utils.c\n├── include/\n│   ├── utils.h\n├── Makefile\n└── README.md"
+        {
+            "structure": "c_project/",
+            "details": [
+                "src/",
+                "├── main.c",
+                "├── utils.c",
+                "include/",
+                "├── utils.h",
+                "Makefile",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "c_project/",
+            "details": [
+                "src/",
+                "├── main.c",
+                "├── math_utils.c",
+                "include/",
+                "├── math_utils.h",
+                "bin/",
+                "├── output",
+                "Makefile",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "c_project/",
+            "details": [
+                "src/",
+                "├── main.c",
+                "├── linked_list.c",
+                "include/",
+                "├── linked_list.h",
+                "tests/",
+                "├── test_linked_list.c",
+                "Makefile",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "c_project/",
+            "details": [
+                "src/",
+                "├── main.c",
+                "├── sort.c",
+                "include/",
+                "├── sort.h",
+                "bin/",
+                "├── output",
+                "Makefile",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "c_project/",
+            "details": [
+                "src/",
+                "├── main.c",
+                "├── file_io.c",
+                "include/",
+                "├── file_io.h",
+                "data/",
+                "├── input.txt",
+                "Makefile",
+                "README.md"
+            ]
+        }
     ],
     "cpp_project": [
-        "cpp_project/\n├── src/\n│   ├── main.cpp\n│   ├── utils.cpp\n├── include/\n│   ├── utils.h\n├── CMakeLists.txt\n└── README.md"
+        {
+            "structure": "cpp_project/",
+            "details": [
+                "src/",
+                "├── main.cpp",
+                "├── utils.cpp",
+                "include/",
+                "├── utils.h",
+                "CMakeLists.txt",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "cpp_project/",
+            "details": [
+                "src/",
+                "├── main.cpp",
+                "├── matrix_ops.cpp",
+                "include/",
+                "├── matrix_ops.h",
+                "tests/",
+                "├── test_matrix_ops.cpp",
+                "CMakeLists.txt",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "cpp_project/",
+            "details": [
+                "src/",
+                "├── main.cpp",
+                "├── graph.cpp",
+                "include/",
+                "├── graph.h",
+                "bin/",
+                "├── output",
+                "CMakeLists.txt",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "cpp_project/",
+            "details": [
+                "src/",
+                "├── main.cpp",
+                "├── neural_network.cpp",
+                "include/",
+                "├── neural_network.h",
+                "data/",
+                "├── dataset.csv",
+                "CMakeLists.txt",
+                "README.md"
+            ]
+        },
+        {
+            "structure": "cpp_project/",
+            "details": [
+                "src/",
+                "├── main.cpp",
+                "├── game_engine.cpp",
+                "include/",
+                "├── game_engine.h",
+                "assets/",
+                "├── textures/",
+                "CMakeLists.txt",
+                "README.md"
+            ]
+        }
     ]
 }
