@@ -1,0 +1,19 @@
+{
+    "frontend": [
+        "frontend/\n├── public/\n│   ├── index.html\n│   └── favicon.ico\n├── src/\n│   ├── components/\n│   │   └── MessageList.js\n│   ├── App.js\n│   ├── index.js\n│   └── styles.css\n└── package.json",
+        "frontend/\n├── assets/\n│   ├── images/\n│   ├── styles/\n├── components/\n│   ├── Header.js\n│   ├── Footer.js\n├── pages/\n│   ├── Home.js\n│   ├── About.js\n├── App.js\n├── index.js\n└── package.json"
+    ],
+    "backend": [
+        "backend/\n├── controllers/\n│   ├── userController.js\n├── models/\n│   ├── userModel.js\n├── routes/\n│   ├── userRoutes.js\n├── config/\n│   ├── database.js\n├── server.js\n└── package.json",
+        "backend/\n├── src/\n│   ├── app.py\n│   ├── routes/\n│   │   ├── auth.py\n│   │   ├── users.py\n│   ├── models/\n│   │   ├── user.py\n├── config/\n│   ├── settings.py\n├── main.py\n└── requirements.txt"
+    ],
+    "data_science": [
+        "data_science/\n├── notebooks/\n│   ├── analysis.ipynb\n│   ├── visualization.ipynb\n├── datasets/\n│   ├── raw/\n│   ├── processed/\n├── scripts/\n│   ├── preprocessing.py\n│   ├── train_model.py\n├── models/\n│   ├── model.pkl\n└── README.md"
+    ],
+    "c_project": [
+        "c_project/\n├── src/\n│   ├── main.c\n│   ├── utils.c\n├── include/\n│   ├── utils.h\n├── Makefile\n└── README.md"
+    ],
+    "cpp_project": [
+        "cpp_project/\n├── src/\n│   ├── main.cpp\n│   ├── utils.cpp\n├── include/\n│   ├── utils.h\n├── CMakeLists.txt\n└── README.md"
+    ]
+}
